@@ -1,0 +1,10 @@
+{
+  // Cloudflare Workers の静的アセット配信（サーバー側の処理はなし）
+  "$schema": "node_modules/wrangler/config-schema.json",
+  "name": "qrcode-converter",
+  "compatibility_date": "2026-10-01",
+  "assets": {
+    "directory": "./dist",
+    "not_found_handling": "single-page-application"
+  }
+}
